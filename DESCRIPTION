@@ -1,0 +1,64 @@
+Package: ebppackages
+Title: Best Practices for Using eBird Data
+Version: 0.1
+Authors@R: 
+    person(given = "Matthew",
+           family = "Strimas-Mackey",
+           role = c("aut", "cre"),
+           email = "mes335@cornell.edu",
+           comment = c(ORCID = "0000-0001-8929-7776"))
+Description: Metapackage for the book Best Practices for using
+    eBird Data and the associated paper. Install this package to install
+    all the dependencies for the book.
+URL: https://github.com/mstrimas/ebird-best-practices
+Depends: 
+    R (>= 3.1.0)
+Imports:
+    AICcmodavg,
+    auk,
+    bookdown,
+    data.table,
+    dggridR,
+    dplyr,
+    edarf,
+    fasterize,
+    fields,
+    fitdistrplus,
+    forcats,
+    ggplot2,
+    ggthemes,
+    gridExtra,
+    hexbin,
+    janitor,
+    knitr,
+    lubridate,
+    lwgeom,
+    maxnet,
+    mgcv,
+    MODIS,
+    MuMIn,
+    pdp,
+    PresenceAbsence,
+    purrr,
+    ranger,
+    raster,
+    readr,
+    rmarkdown,
+    rnaturalearth,
+    rvest,
+    scales,
+    scam,
+    sf,
+    smoothr,
+    stringr,
+    tibble,
+    tidyr,
+    tidyverse,
+    unmarked,
+    velox,
+    verification,
+    viridis
+Remotes:
+    rstudio/bookdown,
+    rstudio/rmarkdown
+RoxygenNote: 6.1.1
