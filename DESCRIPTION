@@ -12,14 +12,14 @@ Description: Metapackage for the book Best Practices for using
     all the dependencies for the book.
 URL: https://github.com/mstrimas/ebird-best-practices
 Depends: 
-    R (>= 3.1.0)
+    R (>= 3.5.0)
 Imports:
     AICcmodavg,
-    auk,
+    auk (0.3.3),
     bookdown,
     data.table,
     dggridR,
-    dplyr,
+    dplyr (>= 0.8.1),
     edarf,
     fasterize,
     fields,
@@ -40,15 +40,15 @@ Imports:
     pdp,
     PresenceAbsence,
     purrr,
-    ranger,
-    raster,
+    ranger (>= 0.11.2),
+    raster (>= 2.9-5),
     readr,
     rmarkdown,
     rnaturalearth,
     rvest,
     scales,
     scam,
-    sf,
+    sf (>= 0.7-5),
     smoothr,
     stringr,
     tibble,
