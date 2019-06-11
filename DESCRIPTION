@@ -15,7 +15,7 @@ Depends:
     R (>= 3.5.0)
 Imports:
     AICcmodavg,
-    auk (0.3.3),
+    auk (>= 0.3.3),
     bookdown,
     data.table,
     dggridR,
