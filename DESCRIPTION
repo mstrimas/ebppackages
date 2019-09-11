@@ -20,6 +20,7 @@ Imports:
     data.table,
     dggridR,
     dplyr (>= 0.8.1),
+    ebirdst,
     edarf,
     fasterize,
     fields,
