@@ -19,6 +19,7 @@ Imports:
     bookdown,
     data.table,
     dggridR,
+    DHARMa,
     dplyr (>= 0.8.3),
     ebirdst,
     edarf,
