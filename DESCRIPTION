@@ -1,6 +1,6 @@
 Package: ebppackages
 Title: Best Practices for Using eBird Data
-Version: 0.1
+Version: 1.0
 Authors@R: 
     person(given = "Matthew",
            family = "Strimas-Mackey",
